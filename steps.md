@@ -47,6 +47,7 @@ We used a single-stage Dockerfile based on the official `python:3.12-slim` image
 ```
 docker build -t project-tracker .
 ```
+```
 docker run -d -p 5000:5000 -v $(pwd)/data:/data --name project-tracker-app project-tracker
 ```
 7. Docker Compose
