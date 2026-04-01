@@ -44,10 +44,11 @@ We used a single-stage Dockerfile based on the official `python:3.12-slim` image
 - Sets up a volume for the database
 
 **Commands used:**
-
+```
 docker build -t project-tracker .
+```
 docker run -d -p 5000:5000 -v $(pwd)/data:/data --name project-tracker-app project-tracker
-
+```
 7. Docker Compose
 Docker Compose was not used. A single container was sufficient for this assignment scope. Using plain Docker commands kept the solution simple and directly matched the requirement to deploy on the private cloud VM.
 8. Deployment Process
