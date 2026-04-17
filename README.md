@@ -3,7 +3,7 @@
 **Module:** B8IS003 – Cloud Infrastructure & Virtualisation  
 **Lecturer:** Paul Laird  
 **Assessment:** 2 (40%)  
-**Group Member:** Jean Akossi  
+**Group Member:** Jean Akossi  Isaac Semakula
 **Date:** 08 April 2026
 
 This repository contains the complete documentation and journey of the project.  
